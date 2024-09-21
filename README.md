@@ -34,10 +34,10 @@ This is a machine learning-based **Movie Recommendation System** built to sugges
 ## Screenshots
 
 **1. User Input Screen**
-![User Input](path_to_your_image1)
+![User Input](img1.png)
 
 **2. Recommended Movies Screen**
-![Recommended Movies](path_to_your_image2)
+![Recommended Movies](img2.png)
 
 ## How to Run
 
