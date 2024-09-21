@@ -5,7 +5,7 @@ import requests
 
 def fetch_poster(movie_id):
     try:
-        response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=b3b8578bcc815b94b4b172469ef4baca&language=en-US")
+        response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<Your_api_key from tmb.com>>&language=en-US")
         data = response.json()
         return 'https://image.tmdb.org/t/p/original' + data["poster_path"]
     except Exception as e:
