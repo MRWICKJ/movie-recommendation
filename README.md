@@ -60,8 +60,3 @@ This is a machine learning-based **Movie Recommendation System** built to sugges
 
 Feel free to contribute by submitting pull requests or reporting issues.
 
----
-
-Make sure to replace `path_to_your_image1` and `path_to_your_image2` with the actual file paths of the images you want to display.
-
-Let me know if you'd like to add or modify anything!
