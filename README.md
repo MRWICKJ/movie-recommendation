@@ -1,7 +1,3 @@
-Here's a sample `README.md` for your movie recommendation project:
-
----
-
 # Movie Recommendation System
 
 This is a machine learning-based **Movie Recommendation System** built to suggest movies based on user preferences. The model analyzes patterns in the data and recommends movies using content-based filtering.
