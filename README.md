@@ -51,6 +51,31 @@ This is a machine learning-based **Movie Recommendation System** built to sugges
    ```bash
    streamlit run app.py
    ```
+Here's an updated section for your `README.md` to include information about using an API key:
+
+---
+
+## Important: API Key Required
+
+To access certain features of the Movie Recommendation System, you may need to obtain an API key from the relevant service. Follow these steps:
+
+1. **Register for an API Key:**
+   - Go to the service provider's website (e.g., The Movie Database, TMDB API).
+   - Sign up for an account and generate your API key.
+
+2. **Add Your API Key to the Project:**
+   - Create a `.env` file in the root of your project.
+   - Add your API key in the following format:
+     ```
+      response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<TMDB_API_KEY>>&language=en-US")
+     ```
+
+### Note
+Always keep your API keys confidential to prevent unauthorized access and potential misuse. If your API key is exposed, consider regenerating it from the service provider.
+
+---
+
+This section will help users understand the importance of the API key and how to properly manage it in your project. Let me know if you need any more adjustments!
 
 ## Contributing
 
